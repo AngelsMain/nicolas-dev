@@ -7,6 +7,11 @@
   <title>HOJA DE VIDA</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
   <div class="wrapper">
@@ -17,10 +22,10 @@
           <h2>JOSE NICOLAS MENDOZA ARENALES</h2>
         </div>
         <ul class="menu">
-          <li><a href="#"  class="active">Inicio</a></li>
-          <li><a href="#">Quien Soy</a></li>
-          <li><a href="#">My Portafolio</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#inicio" class="active">Inicio</a></li>
+          <li><a href="#quien-soy">Quien Soy</a></li>
+          <li><a href="#my-portafolio">My Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
         <div class="toggle-menu">
           <i class="fas fa-bars"></i>
@@ -28,7 +33,7 @@
       </nav>
     </header>
     <main class="main">
-      <div class="info-content">
+      <div id="inicio" class="info-content">
         <h1>SOY <span>ING.</span> DE SISTEMAS</h1>
         <p>Una Persona honesta, sencilla, trabajadora, me gusta la ciencia y tecnologia</p>
         <a download href="#">
@@ -38,7 +43,8 @@
       <img src="img/FOTO PERSONAL.png" alt="Foto personal">
     </main>
   </div>
-  <div class="My portafolio">
+  
+  <div id="my-portafolio" class="my-portafolio">
     <div class="portafolio-heading">
       <h2>My Portafolio</h2>
       <div class="divider"></div>
@@ -68,7 +74,7 @@
         </div>
       </div>
       <div class="card">
-        <div class="#"></div>
+        <div class="card__img"></div>
         <div class="card__title">
           <h2>Desarrollo web</h2>
           <p>El objetivo es la buena estética y una óptima experiencia del usuario, todo ello con el único fin de comunicar algo a nuestro usuario.</p>
@@ -116,7 +122,7 @@
     </div>
   </div>
 
-  <div class="contact-section">
+  <div id="contacto" class="contact-section">
     <div class="contact-heading">
       <h2>COMUNICATE CON NOSOTROS</h2>
       <div class="divider"></div>
